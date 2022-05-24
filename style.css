@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #f0f0f0;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  text-align: center;
+  color: black;
+}
+
+/* logo e descrizione */
+
+img{
+  width: 200px;
+  height: auto;
+}
+
+h2{
+  color: rgb(0, 220, 0)
+}
+
+/* barra prenotazione */
+
+.prenotazione{
+  background-color: rgb(0, 220, 0);
+  padding: 8px;
+}
+
+input{
+  background-color: f0f0f0;
+  color: black;
+  font-size: 10px;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+/* monopattini */
+
+h3{
+  display: inline-block;
+  height: 5px;
+}
+
+.Gino22 p, .Mike24 p, .Fede154 p{
+  font-size: 12px;
+  line-height: 5px;
+}
+
+.Gino22, .Mike24, .Fede154{
+  text-align: left;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+/* barre di carica */
+
+#caricagino22{
+  width: 300px;
+  background-color: #F5B453;
+}
+
+#caricamike24{
+  width: 450px;
+  background-color: #1EC31E;
+}
+
+#caricafede154{
+  width: 140px;
+  background-color: #BE4141;
+}
+
+#caricagino22, #caricamike24, #caricafede154{
+  height: 20px;
+  border-radius: 3px;
+}
